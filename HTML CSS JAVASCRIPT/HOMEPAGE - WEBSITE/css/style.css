@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Oswald:wght@500&display=swap');
+:root {
+    --main-bg-color: #2874f0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 70px;
+    background-color: var(--main-bg-color);
+    font-family: 'Oswald', sans-serif;
+ 
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    padding: 0 10px 0 25px;
+}
+nav div1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
+    text-shadow: 4px 4px 10px red;
+ 
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 50px;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.serch{
+    display: flex;
+    align-items: center;
+}
+.serch input{
+    width: 493px;
+    height: 25px;
+    border-radius: 3px;
+    margin: 0 16px 0 60px;
+    padding: 0 12px;
+}
+
+.btnsearch{
+    padding: 5px 10px;
+    color: white;
+    background-color: #2874f0;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btnsearch button{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900px;
+    color: white;
+    text-decoration: none;
+}
+.btnsearch a{
+    color: white;
+    text-decoration: none;
+}
+.btnsearch button:hover{
+    font-weight: bolder;
+    color: white;
+}
+ .container{
+  min-height: calc(100vh - 58px - 12vh);
+ }
+ @keyframes slide {
+    0% {
+       transform: translate(-2VW); 
+    }
+    100%{
+        transform: translate(40vw);
+    }
+ }
+ @keyframes slide1 {
+    0% {
+       transform: translate(0VW); 
+    }
+    100%{
+        transform: translate(42vw);
+    }
+ }
+ @keyframes slide2 {
+    0% {
+       transform: translate(2VW); 
+    }
+    100%{
+        transform: translate(44vw);
+    }
+ }
+ .rate{
+    color: brown
+ }
+ .silder{
+    display: flex;
+    background-color: white;
+    margin: auto;
+    overflow: hidden;
+    height: 600px;
+    position: relative;
+    justify-content: center;
+ }
+ .silder img{
+    display:block;
+    padding: 20px 0px 0px 0px;
+    width: 100vw;
+    margin: 0;
+    
+ }
+ .img1{
+   transform: translate(-2VW);
+   animation: slide 4s forwards 2s infinite;
+  
+ }
+ .img2{
+    transform: translate(0VW);
+    animation: slide1 4s forwards 2s infinite;
+    
+ }
+ .img3{
+    transform: translate(2VW);
+    animation: slide2 4s forwards 2s infinite;
+   
+ }
+ 
+ 
+ .list{
+    display: flex;
+    align-content: center;
+    margin: 40px 600px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+    text-decoration: none
+ }
+ .btn{
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+    align-content: center;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .btn:hover{
+    color: black;
+    font-weight: bolder;
+ 
+ }
+ .btn a:hover{
+    color: black;
+    font-weight: bolder;
+ 
+ }
+ .btn a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+ }
+ .boxes{
+    display: flex;
+    justify-content: center;
+    
+ }
+ .box{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding: 0 10px;
+}
+   
+ .box img{
+    width: 200px;
+    height: 200px;
+    padding: 5px 4px;
+    margin: 5px 5px;
+    background-color:purple;
+
+    
+ }
+ .product1{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif; 
+ }
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Oswald', sans-serif;
+ 
+
+}

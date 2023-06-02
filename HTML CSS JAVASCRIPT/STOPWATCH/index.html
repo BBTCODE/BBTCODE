@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>STOPWATCH</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <section class="pattern">
+     <div class="stopwatch">
+          <div class="outercircle">
+               <div class="innercircle">
+                    <div class="stopwatchdisplay">
+                     <h1 id="displaytime">00:00:00</h1>
+                    </div>
+               </div>
+          </div>     
+     </div>
+     <div class="buttons">
+          <button class="btn" id="one"><i class="fa-solid fa-stop"onclick="watchstop()"></i></button>
+          <button class="btn" id="two"><i class="fa-solid fa-hourglass-start" onclick="watchstart()"></i></button>  
+          <button class="btn" id="three"><i class="fa-solid fa-rotate"onclick="watchreset()"></i></button> 
+          </div>
+     </section>
+     <div class="end">
+     <h1>STOPWATCH</h1>
+     </div>
+     <script src="https://kit.fontawesome.com/1300e6e842.js" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+</body>
+</html>

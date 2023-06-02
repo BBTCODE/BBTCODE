@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containter">
+      <div class="turn">
+        <button class="btn active">Turn for X</button>
+        <button class="btn">Turn for 0</button>
+      </div>
+      <div class="boxes">
+        <div class="box bt bl"><span class="box-text" id="b1"></span></div>
+        <div class="box bt"><span class="box-text" id="b2"></span></div>
+        <div class="box bt br"><span class="box-text" id="b3"></span></div>
+        <div class="box bl"><span class="box-text" id="b4"></span></div>
+        <div class="box"><span class="box-text" id="b5"></span></div>
+        <div class="box br"><span class="box-text" id="b6"></span></div>
+        <div class="box bb bl"><span class="box-text" id="b7"></span></div>
+        <div class="box bb"><span class="box-text" id="b8"></span></div>
+        <div class="box bb br"><span class="box-text" id="b9"></span></div>
+      </div>
+    </div>
+    <div class="result inactive">
+      <h1>X win the Game</h1>
+      <button id="Restart">Resart</button>
+      <img src="images/excited.gif" alt="" id="imgs" />
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

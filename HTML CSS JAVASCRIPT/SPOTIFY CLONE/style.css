@@ -1,0 +1,125 @@
+body{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(235, 148, 148));
+ }
+  *{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+   align-items: center;
+    list-style: none;
+}
+ul img{
+    width: 40px;
+    height: 40px;
+    padding: 0px 10px 0px 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    font-weight: bolder;
+}
+nav ul li{
+    margin: 0px 25px;
+}
+.logo span{
+    margin-right: 40px;
+}
+.cantainer{
+display: flex;
+min-height: 69vh; 
+background-color: black;
+color: white;
+width: 70%;
+margin: 15px auto;
+border-radius: 15px;
+padding: 20px;
+background-image: url(img/bg.jpg);
+background-repeat: no-repeat;
+background-size: 1380px 800px;
+}
+.songlist{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    padding: 20px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.songlist h2{
+    padding: 40px 20px;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    color: black;
+    margin: 5px 10px;
+    border-radius: 13px;
+    width: 100%;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+.songItem img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 2px 5px;
+}
+.songlistplay
+{
+padding: 0px 5px;
+}
+.songlistplay i{
+    padding: 0px 5px;
+   
+}
+.bottom{
+display: flex;
+height: 125px;
+width: 100%;
+background-color: black;
+color: white;
+justify-content: center;
+align-items: center;
+position: sticky;
+flex-direction: column;
+
+}
+.songinfo{
+    position: absolute;
+    left: 15vw;
+    padding:10px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    width: 5vw;
+    height: 2vh;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+#progressbar{
+    width: 70%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.icon{
+padding: 15px 0px ;
+cursor: pointer;
+}
+.icon i{
+    padding: 0px 10px;
+}

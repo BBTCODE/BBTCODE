@@ -1,0 +1,101 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+     background-image: url(images/bg.jpg);
+     background-size: cover;
+    
+}
+nav{
+     display: flex;
+     align-items: center;
+     background-color: rgb(0,100,0);
+
+}
+ .drop ul{
+     display: flex;
+     list-style: none;
+     padding: 10px;
+     margin: 10px;
+}
+.drop ul li{
+     padding: 10px;
+     margin-right: 50px;
+     color: white;
+}
+.drop ul li a{
+     text-decoration: none;
+     color: white;
+}
+.home , .drop ul li:hover{
+     background-color: rgb(74, 129, 84);
+     border-radius: 3px;
+}
+nav ul li i{
+     padding: 10px;
+     text-align: center;
+}
+.subbox{
+     display: none;
+}
+.drop ul li:hover .subbox{
+     display: block;
+     position: absolute;
+     background-color: rgb(0,100,0);
+     margin-top: 10px;
+     margin-left: -15px;
+}
+.drop ul li:hover .subbox ul{
+     display:block;
+     margin: 10px;
+     
+     
+}
+.drop ul li:hover .subbox ul li{
+     width:200px;
+     color: white;
+     padding:10px ;
+     border-bottom: 1px dotted rgb(255, 255, 255);
+     background: transparent;
+     border-radius: 0;
+     text-align: left;
+     cursor: pointer;
+}
+.drop ul li:hover .subbox ul :last-child{
+     border: none;
+}
+.drop ul li :hover .subbox ul li a:hover{
+     color: rgb(222, 57, 57);
+}
+
+.subbox2{
+     display: none;
+}
+.subbox ul li:hover .subbox2 {
+   display: block;
+   position: absolute;
+   background-color: rgb(0,100,0);
+   margin-top: -46px;
+   margin-left: 160px;
+}
+nav .right{
+     margin-left: 270px;
+     background: whitesmoke;
+     padding-left: 10px;
+     padding-right:5px ;
+     outline: none;
+     border: none;
+     border-radius: 7px;
+     cursor: pointer;
+}
+nav .right input{
+     border: none;
+     height: 28px;
+     width: 280px;
+     outline: none;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}

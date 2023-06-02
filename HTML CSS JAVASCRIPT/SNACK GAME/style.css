@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=DynaPuff:wght@500&family=Lobster&family=Pacifico&display=swap');
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Caveat', cursive;
+     font-family: 'DynaPuff', cursive;
+     font-family: 'Lobster', cursive;
+     font-family: 'Pacifico', cursive;
+}
+body{
+     background: url(images/bg.jpg);
+     background-position: cover;
+     background-repeat: no-repeat;
+     background-size: 100vw 100vh;
+     display: flex;
+     align-items: center; 
+     justify-content: center;
+}
+#box{
+     width: 900px;
+     height: 800px;
+     background: transparent;
+     border: 1px solid black;
+     border-radius: 23px;
+     background: linear-gradient(-45deg,rgb(121, 165, 106),rgb(198, 222, 198));
+     display: grid;
+     grid-template-rows: repeat(18,1fr);
+     grid-template-columns: repeat(18,1fr);
+    
+}
+.outer-box{
+     width: 940px;
+     height: 840px;
+     margin-right: 400px;
+     margin-top: 45px;
+     background: transparent;
+     border: 1px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(-45deg,#da1414,#e7943c,#19eed9,#90125b);
+     background-size: 400%,400%;
+     animation: gradient 1s ease infinite;
+     border-radius: 23px;
+ }
+ @keyframes gradient{
+     0%{
+         background-position: 0% 50%;
+     }
+     50%{
+         background-position: 100% 50%;
+     }
+     100%{
+         background-position: 0% 50%;
+     }
+ }
+.snake{
+     background:linear-gradient(red,green);
+     border: 0.25vmin solid white;
+     border-radius: 50%;
+ }
+.head{
+     background: url(images/snake-head3.png);
+     background-size: cover;
+     border: 0;
+     transform:scale(1.5)
+     
+     /* background-color: #90125b; */
+}
+.food{
+     background: rgb(230, 219, 13);
+     border: 0.25vmin solid black;
+     border-radius: 50%;
+}     
+#scorebox{
+     position: absolute;
+     top: 50px;
+    right:200px;
+    font-size: 39px;
+    font-weight: 500;
+    
+}
+#hiscorebox{
+     position: absolute;
+     top: 110px;
+    right:170px;
+    font-size: 39px;
+    font-weight: 500;
+}
+     

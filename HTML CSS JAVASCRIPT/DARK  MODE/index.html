@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- ---------HEADER------ -->
+    <header>
+      <div class="nav-center">
+        <nav>
+          <a href="#">
+            <img src="./images/logo.png" alt="logo" width="50" height="auto" />
+          </a>
+          <div class="toggle-icon" id="toggle-icon">
+            <span class="toggle-btn bars">
+              <i class="fa-solid fa-bars"></i>
+            </span>
+            <span class="toggle-btn times">
+              <i class="fa-solid fa-times"></i>
+            </span>
+          </div>
+        </nav>
+        <div class="links-container" id="links-container">
+          <ul class="nav-links" id="nav-links">
+            <li>
+              <a href="#home" class="link">
+                <i class="fa-solid fa-house active"></i>
+              </a>
+            </li>
+            <li><a href="#about" class="link">about</a></li>
+            <li><a href="#skills" class="link">skills</a></li>
+            <li><a href="#contact" class="link">contact</a></li>
+            <li><a href="#projects" class="link">work</a></li>
+
+            <div class="social-icons">
+              <a href="#" class="link">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+              <a href="#" class="link">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#" class="link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#" class="link">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </ul>
+        </div>
+        <a href="#" class="resume">Resume</a>
+        <img src="images/sun.png" id="logo-moon" onclick="logomoon()">
+      </div>
+    </header>
+
+    <!-- ---------HOME SECTION------ -->
+
+    <section class="section-1" id="home">
+      <div class="container">
+        <div class="about-description">
+          <h2>Hi</h2>
+          <h1 id="name">
+            I'm
+            <img
+              src="images/logo.png"
+              alt="text-logo"
+              width="80"
+              height="120"
+            /><span class="auto-typed"></span>
+          </h1>
+          <h1 id="job">UI/UX Designer, web developer</h1>
+          <p><q>"passionate about coding and programming"</q></p>
+
+          <a href="#contact" class="contact-button">
+            <div>
+              <span class="bg"></span>
+              <span class="base"></span>
+              <span class="text">contact me</span>
+            </div>
+          </a>
+
+          <!-- -----ACHIEVEMENTS----- -->
+          <div class="achievement">
+            <div class="ach">
+              <h1>50</h1>
+              <span>Completed Projects</span>
+            </div>
+            <div class="ach">
+              <h1>70</h1>
+              <span>Completed Designs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="icons">
+        <a href="#" class="link">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#" class="link">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+      <div class="hero-img">
+        <img src="images/hoodie--guy.png" alt="HoodieGuy" />
+      </div>
+    </section>
+    <!-- -----PART-2----- -->
+    <!-- -----HOMEPAGE LOGO ANIMATION----- -->
+    <ul class="logo-animation">
+      <li>
+        <img src="images/logo.png" alt="logo" width="150" height="auto" />
+      </li>
+      <li>
+        <img src="images/logo.png" alt="logo" width="700" height="auto" />
+      </li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+
+    <!-- -----ABOUT-SECTION----- -->
+    <div class="switch-wrapper">
+      <button class="switch-btn">
+        <span><i class="fa-solid fa-play"></i></span>
+        <span><i class="fa-solid fa-pause"></i></span>
+      </button>
+    </div>
+    <section class="section-2" id="about">
+      <div class="my-about-wrapper">
+        <h1 class="about" data-aos="fade-down">About</h1>
+        <span class="myself" data-aos="fade-up">Me, Myself and I</span>
+      </div>
+      <div class="my-story">
+        <div class="para1" data-aos="fade-in">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+            necessitatibus recusandae aperiam, dolor assumenda ratione inventore
+            eius obcaecati saepe, rerum, eligendi fugit ab a vel?
+          </p>
+          <img src="./images/logo.png" alt="logo" />
+        </div>
+        <div class="para2-wrapper" data-aos="fade-in">
+          <a href="#" class="contact-button">
+            <div>
+              <span class="bg"></span>
+              <span class="base"></span>
+              <span class="text">read more</span>
+            </div>
+          </a>
+          <div class="para2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Consequuntur, recusandae voluptatibus, dolorum, velit dignissimos
+              explicabo qui consequatur amet aliquid culpa neque sequi deleniti!
+              Nihil deleniti corporis soluta blanditiis vero libero illo. Animi
+              itaque autem nihil.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----SKILLS-SECTION----- -->
+    <section class="section-3" id="skills">
+      <h1 class="text-skills" data-aos="fade-down">Skills</h1>
+      <div class="acquired-skills">
+        <div class="description">
+          <h2 data-aos="fade-up">My Coding Journey</h2>
+          <p data-aos="fade-in">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab tenetur
+            quod sint velit incidunt fuga facilis, cum illum aperiam quidem
+            distinctio? Natus quasi totam aperiam recusandae harum, minus quod
+            cupiditate pariatur, consequatur quam iusto fuga?
+          </p>
+          <p data-aos="fade-in">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nisi
+            laudantium sed, laboriosam, eum aliquam eius, quidem numquam dolorem
+            autem praesentium a repellendus eos ut.
+          </p>
+          <span style="font-size: 18px" data-aos="fade-in"
+            >"I'm still Learning cause I have a long way to go"</span
+          >
+        </div>
+        <img src="./images/skillset.svg" alt="skills" data-aos="zoom-in"/>
+      </div>
+    </section>
+    <!-- -----PART-3----- -->
+    <section class="contact-section" id="contact">
+      <div class="contact-description">
+        <h2 data-aos="fade-up">Contact Me</h2>
+        <p data-aos="fade-in">
+          I'd like to work with great companies and to engage in great Projects
+          that will change the future of web development.
+        </p>
+        <span data-aos="fade-in">Let's Talk About Coding</span>
+        <h1 data-aos="fade-down">Contact</h1>
+      </div>
+      <div class="contact-form-wrapper">
+        <form action="#">
+          <input type="text" placeholder="Name" class="name" data-aos="fade-up"/>
+          <input type="email" placeholder="Email" class="email" data-aos="fade-up"/>
+          <input type="text" id="text" placeholder="Subject" name="subject" data-aos="fade-up"/>
+          <textarea
+            name="text"
+            placeholder="Send a message"
+            class="textarea"
+            data-aos="fade-up"
+          ></textarea
+          ><br />
+          <input type="submit" value="Send a Message" id="submit-button" data-aos="fade-in"/>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d235013.74843168817!2d72.4149336!3d23.0204741!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1682337903199!5m2!1sen!2sin" 
+      
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+      </div>
+    </section>
+
+    <a href="#" id="home-link" class="scroll-link top-link">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- -----PART-4----- -->
+    <div class="projects" id="projects">
+      <div class="projects-description" data-aos="fade-right">
+        <h3> Projects</h3>
+        <p>
+          Here are some of the projects that I have accompolished so far. Check
+          out my link for More.
+        </p>
+      </div>
+     
+    </div>
+    <!-- -----FOOTER----- -->
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          Copyright &copy; Built By <span>Dhaval Prajapati</span> 2023 | All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1500,
+        easeing: "ease-in-out",
+      });
+    </script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

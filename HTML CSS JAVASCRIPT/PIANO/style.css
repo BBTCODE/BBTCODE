@@ -1,0 +1,73 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+.container{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100vh;
+}
+.piano{
+     width: 1000px;
+     background-color: rgb(111, 88, 88);
+     position: relative;
+     padding: 100px 30px 20px 30px ;
+
+}
+.piano .key{
+     cursor: pointer;
+}
+.whitekey{
+     display: flex;
+     position: relative;
+}
+.whitekey .key{
+     display: flex;
+     position: relative;
+     width:calc(100% / 14);
+     height: 280px; 
+     background-color: #fff;
+     border: 2px solid #000;
+     box-shadow: 0 5px 0 #000;
+     border-radius: 0 0 5px 5px;
+}
+.whitekey .key:active{
+     height: 285px;
+     box-shadow: 0 2px 0 #000,inset 0 0 5px #000;
+     margin-top: -5px;
+     transform: translateY(5px);
+}
+.blackkey{
+     position: absolute;
+     display: flex;
+     background-color: #000;
+     left: 0;
+     right: 0;
+     top: 0;
+     z-index: 10;margin-top: 100px;
+}    
+.blackkey .key{
+     height: 180px;
+     width: 40px;
+     position: absolute;
+     background-color: #000;
+     border-radius: 0 0 5px 5px;
+}
+.blackkey .key:active{
+     background-color: #444;
+     height: 182px ;
+}
+.blackkey .key:nth-child(1){ left:76px;}
+.blackkey .key:nth-child(2){ left:144px ;}
+.blackkey .key:nth-child(3){ left: 278px;}
+.blackkey .key:nth-child(4){ left: 346px;}
+.blackkey .key:nth-child(5){ left: 413px;}
+.blackkey .key:nth-child(6){ left: 548px;}
+.blackkey .key:nth-child(7){ left: 614px;}
+.blackkey .key:nth-child(8){ left: 680px;}
+.blackkey .key:nth-child(9){ left: 815px;}
+.blackkey .key:nth-child(10){ left: 883px;}
